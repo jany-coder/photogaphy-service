@@ -8,7 +8,7 @@ const BookingClient = () => {
     const [bookings, setBookings] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/bookings?email=' + loggedInUser.email, {
+        fetch('https://sheltered-lowlands-09828.herokuapp.com/bookings?email=' + loggedInUser.email, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

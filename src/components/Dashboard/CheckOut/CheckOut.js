@@ -11,7 +11,7 @@ const CheckOut = (props) => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const onSubmit = data => {
 
-        fetch('http://localhost:5000/addBookings', { 
+        fetch('https://sheltered-lowlands-09828.herokuapp.com/addBookings', { 
             method: 'POST', 
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(data)

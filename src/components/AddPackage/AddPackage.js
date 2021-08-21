@@ -22,7 +22,7 @@ const AddPackage = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5000/addPackage', {
+        fetch('https://sheltered-lowlands-09828.herokuapp.com/addPackage', {
             method: 'POST',
             body: formData
         })

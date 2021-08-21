@@ -1,7 +1,3 @@
-import img1 from '../assets/photo-01.jpg';
-import img2 from '../assets/photo-02.jpg';
-import img3 from '../assets/photo-03.jpg';
-
 
 const serviceData = [
 
